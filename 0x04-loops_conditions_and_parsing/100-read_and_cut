@@ -6,8 +6,8 @@
 IFS=":"
 
 # Open the /etc/passwd file for reading
-while read -r username _ uid _ _ home _; do
-  # Display the required information
+while read -r username _ uid _ _ home _;
+do
   echo "Username: $username"
   echo "User ID: $uid"
   echo "Home Directory: $home"
