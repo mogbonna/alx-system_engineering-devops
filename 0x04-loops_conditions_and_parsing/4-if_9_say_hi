@@ -12,4 +12,4 @@ do
   fi
   echo "Best School"
   (( count++ ))
-donei
+done
