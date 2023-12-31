@@ -1,6 +1,6 @@
 # Scaled Up Web Infrastructure
 
-![Image of a scaled up web infrastructure](Scale up.drawio.png)
+![Image of a scaled up web infrastructure](<Scale up.drawio.png>)
 
 [Visit Board](https://app.diagrams.net/#G1w6--OQduZZvPY0vNbegC6fDrjU68-0MU)
 
