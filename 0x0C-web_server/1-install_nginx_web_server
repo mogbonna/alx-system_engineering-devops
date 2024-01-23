@@ -3,8 +3,9 @@
 
 
 echo -e "Updating and installing Nginx.\n"
-sudo apt-get update -y -qq && \
-	 sudo apt-get install nginx -y
+sudo apt-get update -y -qq 
+
+sudo apt-get install nginx -y
 
 echo -e "\nSetting up some minor stuff.\n"
 
@@ -27,4 +28,4 @@ echo -e "Hello World!" | dd status=none of=/var/www/html/index.nginx-debian.html
 # Restarting nginx
 sudo service nginx restart
 
-echo -e "\nCompleted. ✅\n"
+echo -e "\nCompleted.\n"
