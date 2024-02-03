@@ -39,7 +39,7 @@ defaults
 frontend haproxy
         bind *:80
         # This is our new config that listens on port 443 for SSL connections
-        bind *:443 ssl crt /etc/ssl/www.jormao.tech/www.jormao.tech.pem
+        bind *:443 ssl crt /etc/ssl/www.memoses.tech/www.memoses.tech.pem
         # Test URI to see if its a letsencrypt request
         acl letsencrypt-acl path_beg /.well-known/acme-challenge/
         use_backend letsencrypt-backend if letsencrypt-acl
