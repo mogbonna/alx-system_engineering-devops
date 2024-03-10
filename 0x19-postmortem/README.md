@@ -1,6 +1,5 @@
 # Postmortem for a hypothetical web application outage:
 
-![Flogging a dead horse](post-mortem-meetings.jpg)
 
 ## Issue Summary
 
