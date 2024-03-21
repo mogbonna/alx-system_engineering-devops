@@ -47,5 +47,5 @@ frontend memoses-frontend-https
 
 backend memoses-tech-backend
     balance roundrobin
-    server 472925-web-01 100.25.155.217:80 check
+    server 472925-web-01 52.87.154.179:80 check
     server 472925-web-02 34.224.17.23:80 check
